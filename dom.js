@@ -64,3 +64,5 @@
 // const newElement = document.createElement("li");
 // newElement.textContent = "new element";
 // middle.append(newElement);
+
+// working with attributes
