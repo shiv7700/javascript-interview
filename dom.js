@@ -66,3 +66,14 @@
 // middle.append(newElement);
 
 // working with attributes
+let input = document.querySelector("#username");
+console.log(input.id);
+
+//change attribute
+input.className = "gg";
+console.log(input.className);
+
+// set attribute
+input.setAttribute("name", "send");
+
+// get attribute
