@@ -77,3 +77,35 @@ console.log(input.className);
 input.setAttribute("name", "send");
 
 // get attribute
+input.getAttribute("name");
+console.log(input.getAttribute("name"));
+
+// remove attribute
+input.removeAttribute("name");
+
+// has attribute
+console.log(input.hasAttribute("class"));
+console.log(input.hasAttribute("gg"));
+
+// element style
+const div = document.querySelector(".tar");
+div.style.color = "red";
+div.style.backgroundColor = "yellow";
+
+// computed style
+const style = getComputedStyle(div, "class");
+console.log(style);
+
+// classname
+console.log(div.className);
+
+// adding classname
+let add = div.className;
+add = add + "changed for add";
+console.log(add);
+
+// classlist : read only
+console.log(div.className);
+div.classList.add("getter");
+div.classList.remove("getter");
+div.classList.replace("getter", "setter");
